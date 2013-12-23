@@ -1,0 +1,105 @@
+  body{
+		min-height: 400px;
+		border: 1px solid #333333;
+		border-radius: 0.5em;
+	}
+	
+	form{
+		color: #FFFFFF;
+		padding: 1%;
+	}
+        
+	.file_list {
+		background-color: #42abe2;
+		padding: 0.5%;
+		margin: 0.5% 2%;
+		color: #fff;
+  }
+        
+  .hidden {
+		display:none;
+  }
+        
+	.button {
+		border: 1px solid #333;
+		padding: 10px;
+		background: #777;
+		color: #fff;
+		width: 115px;
+		display: inline-block;
+		font-size: 120%;
+		font-weight: 800;
+		text-align: center;
+		-webkit-box-shadow: inset rgba(0, 0, 0, 0.498039) 0px 3px 9px;
+		-moz-box-shadow: inset rgba(0, 0, 0, 0.498039) 0px 3px 9px;
+		box-shadow: rgba(0, 0, 0, 0.498039) 0px 3px 9px;
+		border-radius: .5em;
+ }
+        
+  .button:hover {
+		background: #333;
+		cursor: pointer;
+  }
+        
+  input#uploadimages {
+		width: 75px;
+		display: none;
+		background: #777;
+		border: 1px solid #333;
+		cursor: pointer;
+		font-size: 1.2em;
+		font-family: Oswald, sans-serif;
+		text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3);
+		color: #fff;
+		-webkit-box-shadow: inset inset 0px 1px 0px #aaa, 0px 2px 0px 0px #ccc, 0px 4px 2px #999;
+		-moz-box-shadow: inset inset 0px 1px 0px #aaa, 0px 2px 0px 0px #ccc, 0px 4px 2px #999;
+		box-shadow: inset inset 0px 1px 0px #aaa, 0px 2px 0px 0px #ccc, 0px 4px 2px #999;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		border-radius: 0.5em;
+		margin: 5% 0 5% 45%;
+		padding:1%;
+  }
+
+  input#uploadimages:hover {
+		background-color:#333333;
+	}
+	
+	input#uploadimages:active {
+		-webkit-box-shadow: inset 0px 1px 0px #aaa, 0px 2px 0px 0px #ccc, 0px 4px 2px #fff;
+		-moz-box-shadow: inset 0px 1px 0px #aaa, 0px 2px 0px 0px #ccc, 0px 4px 2px #fff;
+		box-shadow: inset 0px 1px 0px #aaa, 0px 2px 0px 0px #ccc, 0px 4px 2px #fff;
+  }
+            
+  #upload_pages{
+		margin-top: 2%;
+		padding-top: 1%;
+  }
+        
+	#form-text{
+    font-size:150%;
+    margin:0 25%;
+		color: #000;
+  }
+	
+	.success{
+		background-color: #388738;
+		color:#fff;
+		border: 1px solid #000;
+		border-radius: 4px;
+		font-weight:800;
+		padding: 0.25% 2%;
+		margin: 1% auto;
+		width: 50%;
+	}
+	
+	.fail{
+		background-color: #A00;
+		color:#fff;
+		border: 1px solid #000;
+		border-radius: 4px;
+		font-weight:800;
+		padding: 0.25% 2%;
+		margin: 1% auto;
+		width: 50%;
+	}
