@@ -4,12 +4,12 @@
 		border-radius: 0.5em;
 	}
 	
-	form{
+  form{
 		color: #FFFFFF;
 		padding: 1%;
 	}
         
-	.file_list {
+  .file_list {
 		background-color: #42abe2;
 		padding: 0.5%;
 		margin: 0.5% 2%;
@@ -20,7 +20,7 @@
 		display:none;
   }
         
-	.button {
+  .button {
 		border: 1px solid #333;
 		padding: 10px;
 		background: #777;
@@ -34,7 +34,7 @@
 		-moz-box-shadow: inset rgba(0, 0, 0, 0.498039) 0px 3px 9px;
 		box-shadow: rgba(0, 0, 0, 0.498039) 0px 3px 9px;
 		border-radius: .5em;
- }
+  }
         
   .button:hover {
 		background: #333;
@@ -65,7 +65,7 @@
 		background-color:#333333;
 	}
 	
-	input#uploadimages:active {
+  input#uploadimages:active {
 		-webkit-box-shadow: inset 0px 1px 0px #aaa, 0px 2px 0px 0px #ccc, 0px 4px 2px #fff;
 		-moz-box-shadow: inset 0px 1px 0px #aaa, 0px 2px 0px 0px #ccc, 0px 4px 2px #fff;
 		box-shadow: inset 0px 1px 0px #aaa, 0px 2px 0px 0px #ccc, 0px 4px 2px #fff;
@@ -76,13 +76,13 @@
 		padding-top: 1%;
   }
         
-	#form-text{
+  #form-text{
     font-size:150%;
     margin:0 25%;
 		color: #000;
   }
 	
-	.success{
+  .success{
 		background-color: #388738;
 		color:#fff;
 		border: 1px solid #000;
@@ -91,9 +91,9 @@
 		padding: 0.25% 2%;
 		margin: 1% auto;
 		width: 50%;
-	}
+  }
 	
-	.fail{
+  .fail{
 		background-color: #A00;
 		color:#fff;
 		border: 1px solid #000;
@@ -102,4 +102,4 @@
 		padding: 0.25% 2%;
 		margin: 1% auto;
 		width: 50%;
-	}
+  }
