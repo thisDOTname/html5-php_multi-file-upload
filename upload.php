@@ -22,7 +22,6 @@ $targetFolder = 'uploads'; //Path to the Uploads Folder
 }
 
 ?>
-
 <html>
 	<head>
 	<script src="//code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
